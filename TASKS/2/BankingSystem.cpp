@@ -113,7 +113,7 @@ int main() {
     int choice;
     do {
         cout << "\n========================================\n";
-        cout << "          Simple C++ Banking System\n";
+        cout << "          C++ Banking System\n";
         cout << "========================================\n";
         cout << "1. Create New Account\n";
         cout << "2. Deposit Funds\n";
@@ -201,7 +201,7 @@ int main() {
                 sourceAcc->viewTransactionDetails();
                 break;
             case 6:
-                cout << "Thank you for using the Simple C++ Banking System. Goodbye!\n";
+                cout << "Thank you! Exiting the C++ Banking System. Goodbye!\n";
                 break;
             default:
                 cout << "Invalid choice! Please try again.\n";
